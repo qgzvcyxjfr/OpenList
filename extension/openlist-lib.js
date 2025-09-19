@@ -33,6 +33,6 @@ function openList(list) {
 		}
 
 		//open the new tab
-		chrome.tabs.create({'url':url,'selected':false});
+		chrome.tabs.create({'url':url,'active':false});
 	}
 }
